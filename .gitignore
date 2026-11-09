@@ -1,0 +1,16 @@
+Build/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+Build.log
+DerivedData/
+*.xcarchive/
+*.ipa
+*.dSYM/
+*.mobileprovision
+*.p12
+*.p8
+.env
+.env.*
+!.env.example
+*.log

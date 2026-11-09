@@ -1,0 +1,22 @@
+{
+  "images": [
+    {
+      "filename": "capy-logo-light.png",
+      "idiom": "universal"
+    },
+    {
+      "filename": "capy-logo-dark.png",
+      "idiom": "universal",
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "dark"
+        }
+      ]
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}
