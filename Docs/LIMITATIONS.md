@@ -25,7 +25,7 @@ The authority is [Capy's docs](https://docs.capy.ai) and the bundled [OpenAPI sn
 - There is no durable offline cache, offline write queue, background push notification service, or guaranteed background SSE. Router drafts are in-memory and do not survive process termination.
 - Stream reconnection is bounded. Reducer memory is bounded; conversations retain at most 1,000 durable messages, with older pages accessible through advanced transcript browsing. Network gaps and event ordering require further live validation.
 - API errors can include server response text. Do not publish screenshots or logs containing account data. Keychain protects the native API key, but this prototype has no independent security audit.
-- No CI workflow, TestFlight/App Store pipeline, release signing automation, or universal device/accessibility certification is configured. Fonts have an included SIL Open Font License; provider marks retain their owners' trademarks. No blanket license to the entire project is granted by a font or asset license.
+- No CI workflow, TestFlight/App Store pipeline, release signing automation, or universal device/accessibility certification is configured. Original project code is MIT licensed; fonts retain their included SIL Open Font License, and third-party assets and trademarks retain their applicable rights and notices.
 
 ## WebKit and iOS
 

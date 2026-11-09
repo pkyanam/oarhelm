@@ -6,6 +6,8 @@ Native SwiftUI iOS prototype. Display name: Oarhelm.
 
 Start with [build instructions](Docs/BUILDING.md), [agent instructions](AGENTS.md), [architecture](Docs/ARCHITECTURE.md), and [platform/API limitations](Docs/LIMITATIONS.md). The [operation inventory](Docs/API-COVERAGE.md) and [latest validation record](Docs/BUILD-6-VALIDATION.md) describe coverage and what has actually been checked.
 
+Want to help? Read [CONTRIBUTING.md](CONTRIBUTING.md) for setup, useful starting points, and pull-request guidance. Report vulnerabilities privately following [SECURITY.md](SECURITY.md).
+
 Open `Oarhelm.xcodeproj`, select Oarhelm, and run on iOS 18 or later. Project files can be regenerated with `ruby Scripts/generate-project.rb` (requires the xcodeproj Ruby gem). Build storage belongs in `Build/` and local builds use at most two jobs.
 
 Connect using a key created at https://capy.ai under Settings, API. Keys are stored in the device Keychain. No demo records are bundled. An account and reachable Capy API are required to load real work or run operations.
@@ -45,3 +47,7 @@ Build 6 adds guided Captain, automation, and issue creation, Captain crew and di
 Model selection uses a searchable snapshot of 56 coding models from Capy's official documentation. The public API does not list models or account-specific availability. A default selection omits the model override. Compact controls fall back to provider marks; the picker displays complete names. Capy's official brand kit and provider mark sources are recorded in `Docs/BRAND-ASSETS.md`.
 
 Build 6 passes the simulator and signed device builds, contract and deterministic delayed-response checks, and Duo layout lint. It is installed on the physical Duo over WiFi. Simulator checks cover expanded and compact layouts, model selection, browser controls, and repeated sidebar selection. Live authenticated agent execution remains unverified without an API key.
+
+## License
+
+Original project code is available under the [MIT license](LICENSE). Paper Mono retains its [SIL Open Font License](Oarhelm/Resources/OFL.txt). Third-party assets retain their applicable rights and notices; the MIT license does not grant rights to Capy's or other providers' trademarks. See [asset provenance](Docs/BRAND-ASSETS.md).

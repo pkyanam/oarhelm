@@ -4,6 +4,8 @@
 
 Read README.md, Docs/BUILDING.md, Docs/ARCHITECTURE.md, and Docs/LIMITATIONS.md before editing. DESIGN.md defines the visual system; Docs/API-COVERAGE.md maps the public API. Oarhelm is an independent reference prototype, not an official Capy application.
 
+Follow CONTRIBUTING.md for changes and verification. Follow SECURITY.md for private vulnerability reporting; never publish a security issue's secrets or exploit details in a public issue. Original code is MIT licensed. Preserve font licenses and third-party asset notices.
+
 The recommended direction is to embed Capy's API into focused custom apps. Keep this repository useful as a transport, workflow, and adaptive UI reference. The project owner reports that Capy is developing its own official client; do not interpret this prototype as a commitment to compete with it.
 
 ## Sources and boundaries
